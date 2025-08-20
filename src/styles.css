@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --ring: 0 0% 0%;
+}
+/* basic prose tweaks */
+.prose a { @apply text-blue-700 dark:text-blue-400 underline; }
+.btn { @apply inline-flex items-center justify-center rounded-xl px-4 py-2 text-sm font-medium transition; }
+.btn-primary { @apply bg-blue-600 text-white hover:opacity-90; }
+.btn-outline { @apply border border-slate-300 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-900; }
+.card { @apply rounded-2xl border border-slate-200 bg-white shadow-sm dark:border-slate-800 dark:bg-slate-900; }
+.card-header { @apply p-6 pb-0; }
+.card-title { @apply text-lg font-semibold; }
+.card-desc { @apply text-sm text-slate-600 dark:text-slate-400; }
+.card-content { @apply p-6 pt-4; }
+.badge { @apply inline-flex items-center rounded-full border border-slate-200 bg-slate-50 px-2.5 py-0.5 text-xs dark:border-slate-700 dark:bg-slate-800; }
+.input { @apply w-full rounded-xl border border-slate-300 bg-white px-3 py-2 text-sm outline-none ring-0 transition placeholder:text-slate-400 focus:border-blue-600 dark:border-slate-700 dark:bg-slate-900; }
+.textarea { @apply input min-h-[120px]; }
+.progress { @apply h-2 w-full overflow-hidden rounded-full bg-slate-200 dark:bg-slate-700; }
+.progress > span { @apply block h-full bg-blue-600; }
+.drawer-backdrop { @apply fixed inset-0 z-40 bg-black/30; }
+.drawer-panel { @apply fixed inset-y-0 right-0 z-50 w-72 bg-white p-4 shadow-xl dark:bg-slate-900; }
