@@ -1,4 +1,4 @@
-🌐 Ian Tandog – Web Portfolio
+🌐 Ian Christopher Tandog – Web Portfolio
 
 A personal portfolio website built with React + Tailwind CSS showcasing my projects, skills, and contact information.
 
@@ -28,7 +28,10 @@ Deployment: GitHub Pages
 
 📸 Preview
 
-/images/portfolio-screenshot.png
+📸 Preview  
+
+![Portfolio Screenshot](images/portfolio-screenshot.png)
+
 
 📬 Contact
 
