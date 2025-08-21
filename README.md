@@ -30,7 +30,7 @@ Deployment: GitHub Pages
 
 📸 Preview  
 
-![Portfolio Screenshot](images/portfolio-screenshot.png)
+![Portfolio Screenshot](public/images/portfolio-screenshot.png)
 
 
 📬 Contact
