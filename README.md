@@ -1,19 +1,39 @@
-# Ian Christopher Tandog — Portfolio (Vite + React + Tailwind)
+🌐 Ian Tandog – Web Portfolio
 
-## Getting Started
-```bash
-npm install
-npm run dev
-```
-Open http://localhost:5173
+A personal portfolio website built with React + Tailwind CSS showcasing my projects, skills, and contact information.
 
-## Build
-```bash
-npm run build
-npm run preview
-```
+🔗 Live Demo: ianchristophertandog.github.io/web-portfolio
 
-### Where to edit
-- `src/App.jsx` — main page (hero, about, projects, skills, resume, contact)
-- `public/resume/Ian_Christopher_Tandog_Resume.pdf` — drop your resume here
-- Update social links and project links in `src/App.jsx` (look for TODO comments)
+🚀 Features
+
+Clean and responsive design (mobile-first)
+
+Dark / Light mode support
+
+Projects showcase with demo and code links
+
+Contact form with mailto: support
+
+Social media links for easy connection
+
+🛠️ Tech Stack
+
+Frontend: React, Tailwind CSS
+
+UI Components: shadcn/ui, lucide-react
+
+Deployment: GitHub Pages 
+
+📂 Project Structure src/ ├── components/ # Reusable UI components (Button, Card, Chip, etc.) ├── assets/ # Images, icons, favicon ├── App.jsx # Main app file └── data/ # Project and socials data
+
+📸 Preview
+
+/images/portfolio-screenshot.png
+
+📬 Contact
+
+Email: ictandog37@gmail.com
+
+LinkedIn: www.linkedin.com/in/ian-christopher-tandog-8a366b202
+
+GitHub: @IanChristopherTandog
